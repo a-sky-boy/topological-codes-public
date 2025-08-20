@@ -1,0 +1,140 @@
+# MATLAB 相关文件
+# 编译生成文件
+*.mex*
+*.p
+*.mex
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+
+# 临时文件与缓存
+*.log
+*.mat
+*.fig
+*.slx*
+*.mdl*
+*.sldd*
+*.slddc*
+*.slddrt*
+*.slddrtx*
+*.slxc*
+*.sltx*
+*.mlapp
+*.mltbx
+*.mlx
+*.mldatx
+*.mn
+*.mexw64
+*.mexa64
+*.mexmaci64
+
+# 项目目录
+slprj/
+sccprj/
+pidl/
+Simulink/
+codegen/
+build/
+dist/
+bin/
+obj/
+
+# 其他
+*.xcodeproj*
+*.xcworkspace*
+*.ipa
+*.dSYM*
+*.dmg
+*.app
+
+
+# Mathematica 相关文件
+# 缓存与临时文件
+*.m~
+*.nb~
+*.mx
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.la
+
+# 项目文件
+*.nb.kernel
+*.cdf
+*.wls
+*.wlsc
+*.wxf
+*.mx
+PacletInfo.m
+BuildFolder/
+Documentation/
+Tests/
+Examples/
+Source/
+Kernel/
+BinaryFiles/
+
+
+# Python 相关文件
+# 字节码文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 分发/打包
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.env
+.venv
+*.venv
+
+# 测试与日志
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# IDE 配置
+.idea/
+.vscode/
+*.swp
+*.swo
+
+
+# Markdown 相关（主要忽略临时文件和预览缓存）
+*.md~
+*.markdown~
+*.md.bak
+*.markdown.bak
+.DS_Store  # macOS 系统文件
+Thumbs.db  # Windows 系统文件
